@@ -5,7 +5,7 @@ Template Demo: http://awerest.com/demo/framer
 Purchase: http://themeforest.net/user/awerest/portfolio?ref=awerest
 Author: Awerest
 Author website: http://awerest.com
-Tags: Responsive, Framework, Components, Mobile First, Retina, Bootstrap 3, One Page, Multi Page, Multi-Purpose, Agency, Clean, Creative, Minimal, 
+Tags: Responsive, Framework, Components, Mobile First, Retina, Bootstrap 3, One Page, Multi Page, Multi-Purpose, Agency, Clean, Creative, Minimal,
 Photography, Portfolio, Business, Corporate, White, Modern, Blog, Fullscreen, Parallax
 
 Version: 1.0
@@ -201,19 +201,18 @@ a:focus {
 }
 
 .theme-two h3 {
-	font-size: 21px;
+	font-size: 32px;
 	font-weight: 300;
 }
 
 .theme-two h4 {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 500;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
 .theme-two h5 {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 300;
 	font-style: italic;
 }
@@ -1083,7 +1082,7 @@ ul, .indent {
 }
 
 .list-unstyled li {
-	margin-bottom: 7px; 
+	margin-bottom: 7px;
 }
 
 @media (max-width: 767px) {
@@ -1102,7 +1101,7 @@ ul, .indent {
 }
 
 #offgrid-right {
-	background: #fff url('../img/offgrid-right.jpg') no-repeat center;
+	background: #fff url('../img/posterOHBM2015.png') no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
@@ -1935,13 +1934,13 @@ img.grayscale:hover {
 }
 
 #slide-0 {
-	background: #000 url("http://placehold.it/1400x900") center no-repeat;
+	background: #000 url("../img/cover_brain.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 #slide-1 {
-	background: #000 url("http://placehold.it/1400x900") center no-repeat;
+background: #000 url("../img/cover_brain.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -1970,20 +1969,20 @@ img.grayscale:hover {
 	background-size: cover;
 }
 
-.hero-1 {
-	background-image: url("http://placehold.it/1400x900");
+.hero-publications {
+	background-image: url("../img/Cajal_cortex_drawings1.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
-.hero-2 {
-	background-image: url("http://placehold.it/1400x900");
+.hero-presentations {
+	background-image: url("../img/Cajal_cortex_drawings2.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
-.hero-3 {
-	background-image: url("http://placehold.it/1400x900");
+.hero-posters {
+	background-image: url("../img/Cajal_cortex_drawings1.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -3047,7 +3046,7 @@ blockquote.pull-right {
 	opacity: 1 !important;
 }
 
-.close-icon:after, 
+.close-icon:after,
 .close-icon:before {
 	background-color: #000;
 	display: block;
@@ -3061,7 +3060,7 @@ blockquote.pull-right {
 	transition: all .2s ease-in-out;
 }
 
-.dark-modal .close-icon:after, 
+.dark-modal .close-icon:after,
 .dark-modal .close-icon:before {
 	background-color: #f5f5f5;
 }
@@ -3220,10 +3219,10 @@ blockquote.pull-right {
 }
 
 @keyframes bouncedelay {
-	0%, 80%, 100% { 
+	0%, 80%, 100% {
 		transform: scale(0.0);
 		-webkit-transform: scale(0.0);
-	} 40% { 
+	} 40% {
 		transform: scale(1.0);
 		-webkit-transform: scale(1.0);
 	}
