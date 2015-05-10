@@ -95,8 +95,16 @@ p.lead {
 	line-height: 1.5;
 }
 
+.publications a {
+	color: #000;
+}
+
+.publications a:hover {
+	color: #E64A19;
+}
+
 a, a:hover {
-	color: #111;
+	color: #FFF;
 	-webkit-transition: 0.2s;
 	-moz-transition: 0.2s;
 	transition: 0.2s;
@@ -439,6 +447,10 @@ a:focus {
 	color: #E64A19;
 	border: 1px solid #E64A19;
 	fill: #E64A19;
+}
+
+.deep-orange-color {
+	color: #E64A19;
 }
 
 .deep-orange:hover, .deep-orange:hover:after, .deep-orange.btn-fillup:after {
@@ -1940,13 +1952,13 @@ img.grayscale:hover {
 }
 
 #slide-1 {
-background: #000 url("../img/cover_brain.png") center no-repeat;
+background: #000 url("../img/cover_brain_inferior.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 #slide-2 {
-	background: #000 url("http://placehold.it/1400x900") center no-repeat;
+	background: #000 url("../img/cover_brain_posterior.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -1969,8 +1981,15 @@ background: #000 url("../img/cover_brain.png") center no-repeat;
 	background-size: cover;
 }
 
+.hero-gorka {
+	background-image: url("../img/GorkaElectrodes.png");
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
 .hero-publications {
-	background-image: url("../img/Cajal_cortex_drawings1.png");
+/* 	background-image: url("../img/Cajal_cortex_drawings1_inv.png"); */
+	background-color: rgb(255, 255, 255, 1);
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -1982,16 +2001,16 @@ background: #000 url("../img/cover_brain.png") center no-repeat;
 }
 
 .hero-posters {
-	background-image: url("../img/Cajal_cortex_drawings1.png");
+	background-image: url("../img/Cajal_cortex_drawings3.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
-.hero-content-1 {
-	background: #000 url("http://placehold.it/1400x900") center no-repeat;
+
+.hero-brain-ntw {
+	background-image: url("../img/cover_brain_network.png");
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-attachment: scroll;
 }
 
 /* --- Bootstrap carousel --- */
@@ -2748,7 +2767,7 @@ blockquote.pull-right {
 /* ==== Navigation ==== */
 
 .navbar-default {
-	background-color: #fff;
+	background-color: rgb(178, 178, 178, 1);
 }
 
 .navbar-default .navbar-collapse {
@@ -2835,6 +2854,7 @@ blockquote.pull-right {
 	background: transparent;
 	margin-bottom: 0;
 	z-index: 999;
+	min-height:35px;
 }
 
 /* --- Fullwidth navbar --- */
