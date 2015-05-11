@@ -1951,19 +1951,19 @@ img.grayscale:hover {
 }
 
 #slide-1 {
-background: #000 url("../img/cover_brain_inferior.png") center no-repeat;
+	background: #000 url("../img/cover_brain_shines1.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 #slide-2 {
-	background: #000 url("../img/cover_brain_posterior.png") center no-repeat;
+	background: #000 url("../img/cover_brain_shines2.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 #slide-3 {
-	background: #000 url("http://placehold.it/1400x900") center no-repeat;
+	background: #000 url("../img/cover_brain_shines3.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
