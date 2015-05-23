@@ -1224,7 +1224,7 @@ ul, .indent {
 }
 
 .section-overlay-soft {
-	background: rgba(0, 0, 0, .2);
+	background: rgba(0, 0, 0, .65);
 }
 
 .section-overlay-hard {
@@ -1945,25 +1945,25 @@ img.grayscale:hover {
 }
 
 #slide-0 {
-	background: #000 url("../img/cover_brain.png") center no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-}
-
-#slide-1 {
 	background: #000 url("../img/cover_brain_shines1.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
-#slide-2 {
+#slide-1 {
 	background: #000 url("../img/cover_brain_shines2.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
-#slide-3 {
+#slide-2 {
 	background: #000 url("../img/cover_brain_shines3.png") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#slide-3 {
+	background: #000 url("../img/cover_brain.png") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -1987,20 +1987,24 @@ img.grayscale:hover {
 }
 
 .hero-publications {
- 	background-image: url("../img/Cajal_cortex_drawings1.png"); 
+ 	background-image: url("../img/Cajal_cortex_drawings1_large.png"); 
 	background-color: rgb(255, 255, 255, 1);
-	-webkit-background-size: cover;
+	-webkit-background-size: ;
 	background-size: cover;
 }
 
 .hero-presentations {
-	background-image: url("../img/Cajal_cortex_drawings2.png");
+	background-image: url("../img/Cajal_cortex_drawings2_large.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-
+.hero-links {
+	background-image: url("../img/sinapses_bw.png");
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 .hero-posters {
-	background-image: url("../img/Cajal_cortex_drawings3.png");
+	background-image: url("../img/Cajal_cortex_drawings3_large.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
