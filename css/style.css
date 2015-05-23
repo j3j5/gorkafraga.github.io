@@ -2011,7 +2011,7 @@ img.grayscale:hover {
 
 
 .hero-brain-ntw {
-	background-image: url("../img/cover_brain_network.png");
+	background-image: url("../img/cover_brain_network_inv.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
