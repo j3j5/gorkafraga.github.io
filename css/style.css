@@ -1228,7 +1228,7 @@ ul, .indent {
 }
 
 .section-overlay-hard {
-	background: rgba(0, 0, 0, .8);
+	background: rgba(0, 0, 0, .6);
 }
 
 .section-overlay-light {
@@ -1987,7 +1987,7 @@ img.grayscale:hover {
 }
 
 .hero-publications {
-/* 	background-image: url("../img/Cajal_cortex_drawings1_inv.png"); */
+ 	background-image: url("../img/Cajal_cortex_drawings1.png"); 
 	background-color: rgb(255, 255, 255, 1);
 	-webkit-background-size: cover;
 	background-size: cover;
