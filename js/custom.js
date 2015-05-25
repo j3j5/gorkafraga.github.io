@@ -146,12 +146,12 @@ $(document).ready(function() {
 		});
 	});
 
-	$(function(){
-		$('.wh-onethird').css({'height':($(window).height())/3*1+'px'});
-		$(window).resize(function(){
-		$('.wh-onethird').css({'height':($(window).height())/3*1+'px'});
-		});
-	});
+//	$(function(){
+//		$('.wh-onethird').css({'height':($(window).height())/3*1+'px'});
+//		$(window).resize(function(){
+//		$('.wh-onethird').css({'height':($(window).height())/3*1+'px'});
+//		});
+//	});
 
 /* ==== 07) Gallery lightbox ==== */
 

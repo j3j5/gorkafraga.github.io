@@ -194,7 +194,13 @@ a:focus {
 
 /* Theme Two */
 
-.theme-two h1, .theme-two h2, .theme-two h3, .theme-two h4, .theme-two h5 {
+.theme-two h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin: 0 0 15px 0;
+}
+
+.theme-two h2, .theme-two h3, .theme-two h4, .theme-two h5 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	margin: 0 0 15px 0;
@@ -1207,7 +1213,7 @@ ul, .indent {
 }
 
 .wh-onethird {
-	min-height: 300px;
+	min-height: 175px;
 }
 
 /* --- Section overlays --- */
