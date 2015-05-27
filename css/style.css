@@ -194,7 +194,13 @@ a:focus {
 
 /* Theme Two */
 
-.theme-two h1, .theme-two h2, .theme-two h3, .theme-two h4, .theme-two h5 {
+.theme-two h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin: 0 0 15px 0;
+}
+
+.theme-two h2, .theme-two h3, .theme-two h4, .theme-two h5 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	margin: 0 0 15px 0;
@@ -1207,7 +1213,7 @@ ul, .indent {
 }
 
 .wh-onethird {
-	min-height: 300px;
+	min-height: 175px;
 }
 
 /* --- Section overlays --- */
@@ -1232,7 +1238,7 @@ ul, .indent {
 }
 
 .section-overlay-light {
-	background: rgba(255, 255, 255, .3);
+	background: rgba(255, 255, 255, .6);
 }
 
 /* --- Floating elements / Positioning element in center of parent element --- */
@@ -1987,8 +1993,8 @@ img.grayscale:hover {
 }
 
 .hero-publications {
- 	background-image:  url("../img/rosetta_stone_piece_blur.png"); 
-	background-color: rgb(255, 255, 255, .1);
+ 	background-image: url("../img/rosetta_stone_piece_blur.png"); 
+	background-color: rgb(255, 255, 255, 1);
 	-webkit-background-size: ;
 	background-size: cover;
 }
@@ -2011,7 +2017,7 @@ img.grayscale:hover {
 
 
 .hero-brain-ntw {
-	background-image: url("../img/book_shred.png");
+	background-image: url("../img/cover_book_shred.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
