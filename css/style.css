@@ -1232,7 +1232,7 @@ ul, .indent {
 }
 
 .section-overlay-light {
-	background: rgba(255, 255, 255, .6);
+	background: rgba(255, 255, 255, .3);
 }
 
 /* --- Floating elements / Positioning element in center of parent element --- */
@@ -1987,8 +1987,8 @@ img.grayscale:hover {
 }
 
 .hero-publications {
- 	background-image: url("../img/Cajal_cortex_drawings1_large.png"); 
-	background-color: rgb(255, 255, 255, 1);
+ 	background-image:  url("../img/rosetta_stone_piece_blur.png"); 
+	background-color: rgb(255, 255, 255, .1);
 	-webkit-background-size: ;
 	background-size: cover;
 }
@@ -2011,7 +2011,7 @@ img.grayscale:hover {
 
 
 .hero-brain-ntw {
-	background-image: url("../img/cover_brain_network_inv.png");
+	background-image: url("../img/book_shred.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
