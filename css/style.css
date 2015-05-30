@@ -1951,25 +1951,25 @@ img.grayscale:hover {
 }
 
 #slide-0 {
-	background: #000 url("../img/cover_brain_shines1.png") center no-repeat;
+	background: #000 url("../img/cover_brain_shines1.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 #slide-1 {
-	background: #000 url("../img/cover_brain_shines2.png") center no-repeat;
+	background: #000 url("../img/cover_brain_shines2.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 #slide-2 {
-	background: #000 url("../img/cover_brain_shines3.png") center no-repeat;
+	background: #000 url("../img/cover_brain_shines3.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 #slide-3 {
-	background: #000 url("../img/cover_brain.png") center no-repeat;
+	background: #000 url("../img/cover_brain.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -2017,7 +2017,7 @@ img.grayscale:hover {
 
 
 .hero-brain-ntw {
-	background-image: url("../img/cover_book_shred.png");
+	background-image: url("../img/book_shred.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
