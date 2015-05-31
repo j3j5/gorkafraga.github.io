@@ -1185,16 +1185,16 @@ ul, .indent {
 	position: absolute;
 	overflow: hidden;
 }
-
 /* --- Parallax effect background fix --- */
 
 .parallax {
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 
-@media screen and (max-device-width: 1024px) {
+/*	Remove parallax on mobiles	*/
+@media (max-width: 767px) {
 	.parallax {
-		background-attachment: scroll;
+		background-attachment: fixed;
 	}
 }
 
