@@ -2863,6 +2863,7 @@ blockquote.pull-right {
 	/*color: #FFF;*/
 }
 
+.navbar-brand,
 .navbar-nav a {
 	color: #E64A19;
 }

@@ -44,33 +44,52 @@
 			<div class="bounce3"></div>
 		</div>
 	</div>
+
+
 	<!-- 	NAVBAR	 -->
-	<div class="navbar navbar-transparent navbar-fixed-top" role="navigation" data-start="padding: 0px 0px; background: rgba(178, 178, 178, 0); border-color: rgba(231, 231, 231, 0);" data-50="padding: 0px 0px; background: rgba(178, 178, 178, 0.9); border-color: rgba(231, 231, 231, 0);">
-		<div class="container">
+	<nav class="navbar navbar-transparent navbar-fixed-top" role="navigation" data-start="padding: 0px 0px; background: rgba(178, 178, 178, 0); border-color: rgba(231, 231, 231, 0);" data-50="padding: 0px 0px; background: rgba(178, 178, 178, 0.9); border-color: rgba(231, 231, 231, 0);">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-gorka-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#intro" class="navbar-brand">
-					<img class="img-responsive" src="img/uva-logo.png" alt="">
-				</a>
-				<a href="#intro" class="navbar-brand">
-					<img class="img-responsive" src="img/RBC_logo.png" alt="">
-				</a>
+				<a class="navbar-brand" href="#intro"><i class="fa fa-home fa-fw"></i>&nbsp;Gorka.science</a>
 			</div>
-			<div class="collapse navbar-collapse" id="navbar-collapse">
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbar-gorka-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#contact">Contact</a>
 					</li>
-					<li class="hidden"><a href="#intro">Home</a>
+					<li><a href="files/CV.pdf">CV</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#research"><i class="fa fa-lightbulb-o fa-fw"></i>&nbsp;Research</a>
+							</li>
+							<li><a href="#publications"><i class="fa fa-book fa-fw"></i>&nbsp;Publications</a>
+							</li>
+							<li><a href="#presentations"><i class="fa fa-desktop fa-fw"></i>&nbsp;Presentations</a>
+							</li>
+							<li><a href="#posters"><i class="fa fa-eye fa-fw"></i>&nbsp;Posters</a>
+							</li>
+							<li><a href="#links"><i class="fa fa-bookmark fa-fw"></i>&nbsp;Links</a>
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</div>
+			<!-- /.navbar-collapse -->
 		</div>
-	</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+
 	<!-- 	COVER TITLE	 -->
 	<section id="intro">
 		<div id="carousel-hero-1" class="carousel" data-ride="carousel">
