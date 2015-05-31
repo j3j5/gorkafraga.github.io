@@ -1,0 +1,2 @@
+- Navbar
+- show in posters thumbnails a 'download' sign 
