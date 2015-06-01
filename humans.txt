@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Gorka Fraga González -- Owner, Scientist, CEO
+	Julio Foulquie -- CTO & Sysadmin -- @julioelpoeta
+
+# THANKS
+
+	Chus Margallo -- Consultant -- @chusmargallo
+
+# TECHNOLOGY COLOPHON
+
+ 	CSS3, HTML5, JS
+ 	Apache Server Configs, jQuery, Modernizr, Normalize.css
