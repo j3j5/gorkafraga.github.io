@@ -195,7 +195,7 @@ a:focus {
 /* Theme Two */
 
 .theme-two h1 {
-	font-family:  Futura, 'Trebuchet MS', sans-serif;
+	font-family:  Futura, 'Futura', sans-serif;
 	font-weight: 300;
 	margin: 0 0 15px 0;
 }
@@ -2063,7 +2063,7 @@ img.grayscale:hover {
 }
 
 .hero-publications {
-	background-image: url("../img/bookpiles.png");
+	background-image: url("../img/book_blur.png");
 	background-color: rgb(255, 255, 255, 1);
 	-webkit-background-size: ;
 	background-size: cover;
