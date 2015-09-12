@@ -195,7 +195,7 @@ a:focus {
 /* Theme Two */
 
 .theme-two h1 {
-	font-family: 'Raleway', sans-serif;
+	font-family:  Futura, 'Trebuchet MS', sans-serif;
 	font-weight: 300;
 	margin: 0 0 15px 0;
 }
@@ -204,7 +204,7 @@ a:focus {
 .theme-two h3,
 .theme-two h4,
 .theme-two h5 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Futura', sans-serif;
 	font-weight: 100;
 	margin: 0 0 15px 0;
 }
@@ -808,8 +808,8 @@ a:focus {
 
 .btn-strong-style {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	padding: 14px 25px;
+	font-size: 14px;
+   	padding: 14px 25px;
 	border-radius: 0;
 }
 
@@ -2021,7 +2021,7 @@ img.grayscale:hover {
 }
 
 #slide-0 {
-	background: #000 url("../img/cover_brain_shines1.jpg") center no-repeat;
+	background: #000 url("../img/Brain_pencil.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
