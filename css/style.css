@@ -2029,9 +2029,10 @@ img.grayscale:hover {
 }
 
 #slide-0 {
-	background: #000 url("../img/cover_lightBlueBrain.jpg") center no-repeat;
+	background: #fff url("../img/Brain_pencil.jpg") center no-repeat;
 	-webkit-background-size: cover
    	background-size: cover;
+
 }
 
 #slide-1 {
@@ -2096,7 +2097,7 @@ img.grayscale:hover {
 }
 
 .hero-brain-ntw {
-	background-image:  url("../img/Brain_pencil.jpg");
+	background-image:  url("../img/cover_brain_bw.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;  
 }
