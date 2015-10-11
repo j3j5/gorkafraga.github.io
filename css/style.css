@@ -1298,7 +1298,7 @@ ul,
 }
 
 .wh-onethird {
-	min-height: 125px;
+	min-height: 95px;
 }
 /* --- Section overlays --- */
 
@@ -2065,20 +2065,20 @@ img.grayscale:hover {
 }
 
 .hero-gorka {
-	background-image: url("../img/GorkaElectrodes.png");
+	background-image: url("../img/GorkaElectrodes_poster.png");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 .hero-publications {
-	background-image: url("../img/book_shred.jpg");
+	background-image: url("../img/Pyramidal.jpg");
 /*	background-color: rgb(255, 255, 255, 1);*/
 	-webkit-background-size: ;
 	background-size: cover;
 }
 
 .hero-presentations {
-	background-image: url("../img/book_shred.jpg");
+	background-image: url("../img/Pyramidal.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -2090,7 +2090,7 @@ img.grayscale:hover {
 }
 
 .hero-posters {
-	background-image: url("../img/book_shred.jpg");
+	background-image: url("../img/Pyramidal.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
