@@ -1298,7 +1298,7 @@ ul,
 }
 
 .wh-onethird {
-	min-height: 95px;
+	min-height: 100px;
 }
 /* --- Section overlays --- */
 
@@ -2188,6 +2188,42 @@ img.grayscale:hover {
 	-webkit-transition: opacity ease-in-out .4s;
 	transition: opacity ease-in-out .4s;
 }
+/*==============================================
+    DASHBOARD  STYLES    
+ =============================================*/
+
+/* DASHBOARD ICONS */
+.bk-clr-one {
+    background-color: ;
+}
+.dashboard-div-icon {
+    height: 85px;
+    width: 85px;
+    border: 2px solid #000000;
+    padding: 22px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.dashboard-div-wrapper {
+    border-radius: px;
+    text-align: center;
+    padding: 15px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.dashboard-div-wrapper:hover {
+    background-color:#fff;
+    transition: all ease 400ms;
+    box-shadow:0px 2px 6px 1px #D9DFCA;
+}
+
+/*========================================================
 /* --- Dividers, separators and <hr> element --- */
 
 .divide-xxs {
