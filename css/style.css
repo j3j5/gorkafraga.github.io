@@ -1311,7 +1311,12 @@ ul,
 	height: 100%;
 	z-index: 1;
 }
-
+.section-overlay-verylight {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
 .section-overlay {
 	background: rgba(0, 0, 0, .5);
 }
@@ -1326,6 +1331,9 @@ ul,
 
 .section-overlay-light {
 	background: rgba(255, 255, 255, .6);
+}
+.section-overlay-verylight {
+	background: rgba(255, 255, 255, .8);
 }
 /* --- Floating elements / Positioning element in center of parent element --- */
 
