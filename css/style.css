@@ -2213,14 +2213,15 @@ img.grayscale:hover {
     border-radius: px;
     text-align: center;
     padding: 15px;
-    color: #000;
+    color: #000000;
     margin-bottom: 30px;
 }
 
 .dashboard-div-wrapper:hover {
-    background-color:#fff;
+    background-color:#dddddd;
     transition: all ease 400ms;
     box-shadow:0px 2px 6px 1px #D9DFCA;
+    box-sizing: content-box
 }
 
 /*========================================================
