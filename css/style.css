@@ -2029,7 +2029,7 @@ img.grayscale:hover {
 }
 
 #slide-0 {
-	background: #000 url("../img/cover_bluebrain.jpg") center no-repeat;
+	background: #000 url("../img/cover_lightBlueBrain.jpg") center no-repeat;
 	-webkit-background-size: cover
    	background-size: cover;
 }
