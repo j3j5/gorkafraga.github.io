@@ -1336,7 +1336,16 @@ ul,
 	background: rgba(255, 255, 255, .8);
 }
 /* --- Floating elements / Positioning element in center of parent element --- */
-
+.mymainmenu {
+    position:relative
+    width: 100%;
+	top: 50%;
+    -webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+        
+     
+}
 .float-content {
 	position: absolute;
 	width: 100%;
@@ -2100,6 +2109,7 @@ img.grayscale:hover {
 	background-image:  url("../img/cover_brain_bw.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;  
+    
 }
 /* --- Bootstrap carousel --- */
 
