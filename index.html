@@ -701,14 +701,17 @@
     <!-- custom scripts and triggers -->
     <script src="js/custom.js"></script>
 
-    <!-- Piwik -->
+    <!-- Big Brother -->
     <script type="text/javascript">
         var _paq = _paq || [];
+        _paq.push(["setDomains", ["gorka.science","*.gorka.science"]]);
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
+        _paq.push(["setDoNotTrack", true]);
+
         (function () {
-            var u = "//dezwartepoet.nl/piwik/";
-            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            var u = "https://bbro.dezwartepoet.nl/";
+            _paq.push(['setTrackerUrl', u + 'bbpwiro.php']);
             _paq.push(['setSiteId', 12]);
             var d = document,
                 g = d.createElement('script'),
@@ -716,12 +719,12 @@
             g.type = 'text/javascript';
             g.async = true;
             g.defer = true;
-            g.src = u + 'piwik.js';
+            g.src = u + 'bbro.js';
             s.parentNode.insertBefore(g, s);
         })();
     </script>
     <noscript>
-        <p><img src="//dezwartepoet.nl/piwik/piwik.php?idsite=12" style="border:0;" alt="" />
+        <p><img src="https://bbro.dezwartepoet.nl/bbro.php?idsite=12" style="border:0;" alt="" />
         </p>
     </noscript>
     <!--end scripts-->
