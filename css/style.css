@@ -2045,13 +2045,13 @@ img.grayscale:hover {
 }
 
 #slide-1 {
-	background: #000 url("../img/cover_brain_shines2.jpg") center no-repeat;
+	background: #fff url("../img/face_pencil.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 #slide-2 {
-	background: #000 url("../img/cover_brain_shines3.jpg") center no-repeat;
+	background: #fff url("../img/cover_brain_grey.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -2180,10 +2180,10 @@ img.grayscale:hover {
 	left: 0 !important;
 	opacity: 0;
 	z-index: -1;
-	-moz-transition: opacity ease-in-out .6s;
-	-o-transition: opacity ease-in-out .6s;
-	-webkit-transition: opacity ease-in-out .6s;
-	transition: opacity ease-in-out .6s;
+	-moz-transition: opacity ease-in-out .8s;
+	-o-transition: opacity ease-in-out .8s;
+	-webkit-transition: opacity ease-in-out .8s;
+	transition: opacity ease-in-out .8s;
 }
 
 .carousel .item:first-child {
@@ -2194,10 +2194,10 @@ img.grayscale:hover {
 .carousel .item.active {
 	opacity: 1;
 	z-index: 0;
-	-moz-transition: opacity ease-in-out .4s;
-	-o-transition: opacity ease-in-out .4s;
-	-webkit-transition: opacity ease-in-out .4s;
-	transition: opacity ease-in-out .4s;
+	-moz-transition: opacity ease-in-out .8s;
+	-o-transition: opacity ease-in-out .8s;
+	-webkit-transition: opacity ease-in-out .8s;
+	transition: opacity ease-in-out .8s;
 }
 /*==============================================
     DASHBOARD  STYLES    
