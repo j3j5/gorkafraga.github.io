@@ -592,9 +592,9 @@ a:focus {
 	font-weight: 300;
 	position: relative;
 	display: inline-block;
-	margin: 15px 0;
-	padding: 12px 20px;
-	border-radius: 3px;
+	margin: 15px 0px;
+	padding: 12px 10px;
+	border-radius: 23px;
 	line-height: 1;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
@@ -3237,4 +3237,63 @@ blockquote.pull-right {
 	background: url("http://placehold.it/960x960") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+}
+
+/* === New Button === */
+
+.mybutton2 {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+	left: 50%;
+	top: 60px;
+	width: 100px;
+	margin: 0 0 0 -100px;
+    vertical-align: middle;
+    padding: 15px 26px;
+    border: 0px solid #b3b3b3;
+    border-radius: 0px;
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#f2f2f2));
+    background: -moz-linear-gradient(top, #fafafa, #f2f2f2);
+    background: linear-gradient(to bottom, #fafafa, #f2f2f2);
+    font: normal normal normal 13px trebuchet ms;
+    color: #f77f16;
+    text-decoration: none;
+}
+.mybutton2:hover,
+.mybutton2:focus {
+    border: 0px solid #ffffff;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    color: #f77f16;
+    text-decoration: none;
+}
+.mybutton2:active {
+    background: #969696;
+    background: -webkit-gradient(linear, left top, left bottom, from(#969696), to(#f2f2f2));
+    background: -moz-linear-gradient(top, #969696, #f2f2f2);
+    background: linear-gradient(to bottom, #969696, #f2f2f2);
+}
+mybutton2:after {
+	position: absolute;
+	content: '';
+	left: 50%;
+	top: 60px;
+	width: 200px;
+	height: 200px;
+	margin: 0 0 0 -100px;
+	border: 0;
+	z-index: -1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	-o-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-moz-transition: -moz-transform 0.3s ease-out;
+	-o-transition: -o-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
 }
