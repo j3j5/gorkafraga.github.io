@@ -813,7 +813,7 @@ a:focus {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
    	padding: 14px 25px;
-	border-radius: 0;
+	border-radius: 12px;
 }
 
 .btn-strong-style:hover {
